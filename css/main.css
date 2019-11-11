@@ -112,11 +112,7 @@ button.slick-next {
   display: inline-block;
 }
 
-.imagem {
-  width: 100% !important;
-  height: 500px !important;
 
-}
 
 .botao-pesquisa {
   margin-left: -51px;
@@ -257,6 +253,12 @@ color: white;
     border-radius: 157px;
   }
 
+  .imagem {
+  width: 100% !important;
+  height: auto !important;
+
+}
+
 }
 
 @media (min-width: 768px){
@@ -279,6 +281,11 @@ width: 100%;
 height: auto;
 }
 
+.imagem {
+  width: 100% !important;
+  height: 500px !important;
+
+}
 .texto-dep{
     color: white;
     padding: 54px;
