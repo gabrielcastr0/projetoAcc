@@ -199,6 +199,10 @@ text-align: center;
   background-color: #0000a1 !important;
 }
 
+.modal-body{
+  text-align: justify !important;
+}
+
 
 
 @media screen and (max-width: 767px) {

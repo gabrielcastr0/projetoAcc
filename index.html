@@ -1,19 +1,23 @@
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <title>Acc - Ajuda a codar codando</title>
 </head>
+
 <body>
   <section class="menu-principal">
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-ajustes">
       <a class="navbar-brand" href="#">
         <img src="img/logo.png" width="130" height="50" class="d-inline-block align-top" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -26,7 +30,8 @@
             <a class="nav-link menu" href="forum.html">Forúm</a>
           </li>
           <li class="nav-item dropdown dropd">
-            <a class="nav-link dropdown-toggle menu dropd" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle menu dropd" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Áreas
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,7 +53,7 @@
           </button>
         </form>
       </div>
-    </nav>  
+    </nav>
 
     <section class="slider">
       <div class="bd-example">
@@ -98,48 +103,145 @@
       <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
       <div class="row">
         <div class="col-12 col-md-4 divisor-linguagens">
-         <h2>HTML</h2><br>
-         <img src="img/html-icon.png" class="html-icon"><br>
-        <p class="texto-lingaguens">E os que lêem o que escreve. Na dor lida sentem bem Não as duas que ele teve; Mas só a que eles não têm.</p>         
-        <button type="button" class="btn btn-primary btn-leia-mais">Leia Mais</button>
-       </div> 
+          <h2>HTML</h2><br>
+          <img src="img/html-icon.png" class="html-icon"><br>
+          <p class="texto-lingaguens">E os que lêem o que escreve. Na dor lida sentem bem Não as duas que ele teve; Mas
+            só a que eles não têm.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary btn-leia-mais" data-toggle="modal"
+            data-target="#exampleModalCenter">Leia Mais</button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">HTML</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
-       <div class="col-12 col-md-4 divisor-linguagens">
-        <h2>CSS</h2><br>
-        <img src="img/css-icon.png" class="css-icon"><br>
-        <p class="texto-lingaguens">E os que lêem o que escreve. Na dor lida sentem bem Não as duas que ele teve; Mas só a que eles não têm.</p>      
-        <button type="button" class="btn btn-primary btn-leia-mais">Leia Mais</button>
+        <div class="col-12 col-md-4 divisor-linguagens">
+          <h2>CSS</h2><br>
+          <img src="img/css-icon.png" class="css-icon"><br>
+          <p class="texto-lingaguens">E os que lêem o que escreve. Na dor lida sentem bem Não as duas que ele teve; Mas
+            só a que eles não têm.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary btn-leia-mais" data-toggle="modal" data-target="#modal2">Leia
+            Mais</button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">CSS</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 divisor-linguagens">
+          <h2>JavaScript</h2><br>
+          <img src="img/js-icon.png" class="js-icon"><br>
+          <p class="texto-lingaguens">E os que lêem o que escreve. Na dor lida sentem bem Não as duas que ele teve; Mas
+            só a que eles não têm.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary btn-leia-mais" data-toggle="modal" data-target="#modal3">Leia
+            Mais</button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal3">JavaScript</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
+    </section>
 
-      <div class="col-12 col-md-4 divisor-linguagens">
-        <h2>JavaScript</h2><br>
-        <img src="img/js-icon.png" class="js-icon"><br>
-        <p class="texto-lingaguens">E os que lêem o que escreve. Na dor lida sentem bem Não as duas que ele teve; Mas só a que eles não têm.</p>
-        <button type="button" class="btn btn-primary btn-leia-mais">Leia Mais</button>
-      </div>
-    </div>
+    <section class="depoimentos">
+      <h2 class="titulo-dep">Depoimentos</h2>
+      <img src="img/profile.png" class="imagem-dep">
+      <p class="texto-dep">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</p>
+      <div class="cont-dep"></div>
+    </section>
 
-
-
-  </div>
-</section>
-
-<section class="depoimentos">
-<h2 class="titulo-dep">Depoimentos</h2>
-<img src="img/profile.png" class="imagem-dep">
-<p class="texto-dep">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<div class="cont-dep"></div>
-</section>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/56d00c3951.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/BD58F435-8C15-A34A-9BE0-ED95E12D6D27/main.js" charset="UTF-8"></script>
-<script type="text/javascript" src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/56d00c3951.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+      src="https://gc.kis.v2.scr.kaspersky-labs.com/BD58F435-8C15-A34A-9BE0-ED95E12D6D27/main.js"
+      charset="UTF-8"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 
 
 </body>
-</html> 
 
-
+</html>
