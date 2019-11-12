@@ -189,10 +189,14 @@ text-align: center;
 
 
 .btn-leia-mais{
-      color: #fff;
+    color: #fff;
     background-color: blue !important;
     border-color: blue !important;
     margin-bottom: 18px;
+}
+
+.btn-leia-mais:hover{
+  background-color: #0000a1 !important;
 }
 
 
