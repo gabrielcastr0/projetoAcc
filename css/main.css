@@ -196,7 +196,8 @@ text-align: center;
 }
 
 .btn-leia-mais:hover{
-  background-color: #0000a1 !important;
+  background-color: white !important;
+  color: blue !important;
 }
 
 .modal-body{
